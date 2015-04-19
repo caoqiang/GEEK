@@ -1,0 +1,286 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0 auto;
+	padding:0;
+	}
+a{
+	text-decoration:none;
+	color:#00F;
+	}
+.more{
+	}
+.more:hover{
+	text-decoration:none;
+	color:#F90;
+	}
+#Content{
+	padding:0px;
+	margin:0 auto;
+	width:1002px;
+	height:1085px;
+	position:relative;
+	}
+#content{
+	background:url(../images/bg.gif) no-repeat;
+	margin:auto;
+	width:1002px;
+	height:916px;
+	}
+#geekIntro{
+	
+	margin:auto;
+	width:1002px;
+	height:315px;
+	padding-top:30px;
+	}
+.geek_intro{
+	position:relative;
+	width:420px;
+	height:313px;
+	float:left;
+	margin-left:60px;
+	font-family:宋体;
+	font-family:"Times New Roman", Times, serif;
+	font-family:微软雅黑;
+	line-height:23px;
+	color:#666;
+	font-size:16px;
+	}
+.geek_img_border{
+	position:relative;
+	border:#99cc33 groove;
+	width:420px;
+	height:313px;
+	float:right;
+	margin-right:60px;
+	}
+#geek_img{
+	position:relative;
+	width:420px;
+	height:313px;
+	}
+#geek_img ul{
+	margin:0px;
+	padding:0px;
+	position:relative;
+	height:313px;
+	}
+#geek_img ul li{
+	position:absolute;
+	list-style-type:none;
+	width:420px;
+	height:313px;
+	}
+#geek_img ul li img{
+	width:420px;
+	height:313px;
+	}
+.scroll{
+	overflow:hidden;
+	width:420px;
+	} 
+.scroll ul{
+	padding:0px;
+	margin:0px;
+	} 
+.scroll ul li{ 
+    float:left; 
+	width:420px; 
+	display:inline; 
+	list-style-type:none;
+	} 
+.scroll ul li img{
+	border:none; 
+    width:420px; 
+	height:313px; 
+	} 
+.leftbtn{
+	position:absolute;
+	width:20px; 
+	height:38px; 
+	top:137px;
+	left:0px; 
+	cursor:pointer;
+	font-size:60px;
+	font-family:微软雅黑;
+	line-height:38px;
+	color:#FFF;
+	} 
+.rightbtn{
+	position:absolute;
+	width:20px; 
+	height:38px; 
+	top:137px;
+	right:0px; 
+	cursor:pointer;
+	font-size:60px;
+	font-family:微软雅黑;
+	line-height:38px;
+	color:#FFF;
+	} 
+
+#geekShow{
+	margin:auto;
+	width:1002px;
+	height:404px;
+	margin-top:25px;
+	}
+#member_bookShow{
+	width:535px;
+	height:402px;
+	float:left;
+	margin-left:60px;
+	}
+#member_intro{
+	background:#ffffff;
+	border:#99cc33 thin solid;
+	width:535px;
+	height:282px;
+	}
+#member_intro ul{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+	padding-top:13px;
+	}
+#member_intro ul li{
+	list-style-type:none;
+	}
+.member_intro_li2{
+	margin-top:140px;
+	
+	}
+#member_intro ul li ul{
+	padding:0px;
+	margin:0px;
+	}
+#member_intro ul li ul li{
+	list-style-type:none;
+	float:left;
+	margin-left:13px;
+	width:161px;
+	height:120px;
+	position:relative;
+	}
+#member_intro ul li ul li a img{
+	border:none;
+	width:161px;
+	height:120px;
+	}
+.member_information{
+	background:url(../images/member_information_bg.jpg);
+	filter:alpha(opacity:60);opacity:0.6;
+	z-index:1000;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	width:161px;
+	height:30px;
+	display:block;
+	}
+.member_information span{
+	display:block;
+	width:161px;
+	height:30px;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	color:#FFF;
+	text-align:center;
+	font-size:14px;
+	line-height:30px;
+	font-family:宋体;
+	font-family:"Times New Roman", Times, serif;
+	font-family:微软雅黑;
+	}
+.book_intro{
+	position:relative;
+	background:#ffffff;
+	border:#99cc33 thin solid;
+	width:535px;
+	height:94px;
+	margin-top:23px;
+	
+	}
+.book_intro ul{
+	padding:0px;
+	margin:0px;
+	padding-left:10px;
+	padding-top:10px;
+	}
+.book_intro ul li{
+	list-style-type:none;
+	}
+.book_intro ul li a{
+	font-family:宋体;
+	font-family:"Times New Roman", Times, serif;
+	font-family:微软雅黑;
+	line-height:23px;
+	color:#666;
+	font-size:14px;
+	}
+.book_intro ul li a:hover{
+	color:#F90;
+	}
+#projectList{
+	position:relative;
+	background:#ffffff;
+	border:#6F3 thin solid;
+	width:285px;
+	height:402px;
+	float:right;
+	margin-right:60px;
+	}
+h3{
+	display:block;
+	margin:auto;
+	vertical-align:middle;
+	background:#B7EFB4;
+	width:275px;
+	height:33px;
+	color:#FFF;
+	font-family:黑体;
+	font-size:22px;
+	line-height:33px;
+	padding-left:10px;
+	}
+#projectList ol{
+	padding:0px;
+	margin:0px;
+	padding-left:35px;
+	padding-top:10px;
+	}
+
+#projectList ol li a{
+	font-family:宋体;
+	font-family:"Times New Roman", Times, serif;
+	font-family:微软雅黑;
+	line-height:25px;
+	color:#666;
+	font-size:15px;
+	
+	}
+#projectList ol li a:hover{
+	color:#F90;
+	}
+.footer{
+	text-align:center;
+	margin:auto;
+	width:1002px;
+	height:66px;
+	padding-top:66px;
+	line-height:25px;
+    color:#666;
+	font-size:16px;
+	}
+.footer a{
+	color:#666;
+	font-family:宋体;
+	font-family:"Times New Roman", Times, serif;
+	font-family:微软雅黑;
+	}
+.footer a:hover{
+	color:#F90;
+	}
