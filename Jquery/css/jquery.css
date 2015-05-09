@@ -1,0 +1,47 @@
+body{
+    margin: 0 auto;
+
+}
+
+#table{
+    width: 600px;
+
+    margin: 0 auto;
+    border: 1px solid #cfcfcf;
+    text-align: center;
+
+
+}
+th{
+    background-color: aquamarine;
+
+}
+tr{
+
+    background-color: antiquewhite;;
+}
+td{
+    border: solid 1px #abcdef;
+}
+ td a{
+     display: block;
+     float: left;
+     margin-left:25px;
+     color: red;
+
+ }
+
+ .popdiv{
+     width: 600px;
+     background-color: antiquewhite;
+     margin: 0 auto;
+     display: none;
+     position: relative;
+     left: 0;
+     top: 0;
+     z-index: 4;
+ }
+ .popdiv p{
+     border-bottom: solid 1px #caabfe;
+     width: 300px;
+ }

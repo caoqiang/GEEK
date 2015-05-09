@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/jquery.css" rel="stylesheet">
+    <script src="js/jquery-1.6.4.js" type="text/javascript"></script>
+</head>
+<style type="text/css">
+    body{
+        margin: 0 auto;
+    }
+    ul{
+        list-style-type: none;
+    }
+
+</style>
+<body>
+ <ul>
+     <li> 1 宫傲水电费法定啥地方撒旦</li>
+     <li> 2宫傲水电费法定啥地方撒旦</li>
+     <li> 3宫傲水电费法定啥地方撒旦</li>
+     <li> 4宫傲水电费法定啥地方撒旦</li>
+     <li> 6宫傲水电费法定啥地方撒旦</li>
+     <li> 5宫傲水电费法定啥地方撒旦</li>
+     <li> 7宫傲水电费法定啥地方撒旦</li>
+     <li> 8宫傲水电费法定啥地方撒旦</li>
+
+
+
+ </ul>
+<script type="text/javascript">
+    setInterval(function(){
+
+        var news1=$('ul>:first').clone();
+        $('ul').append(news1);
+        $('ul>:first').remove();
+
+    },2000)
+
+
+
+
+
+
+</script>
+</body>
+</html>
