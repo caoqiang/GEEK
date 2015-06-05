@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+	width: 960px;
+	height: 400px;
+}
+/*********************************#invite-content整体********************************/	
+#invite-content {
+	width: 958px;
+	height: 384px;
+	margin-top:50px;	
+	border: 1px solid #E4E4E4;
+}
+/*********************************invite-search开始********************************/	
+#invite-search {
+	height: 24px;
+	width: 958px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #C8AC99;
+}
+#invite-search input {
+	height: 24px;
+	border-radius: 5px;
+}
+/*********************************invite-name邀请人姓名********************************/	
+#invite-name {
+	height: 24px;
+	width: auto;
+	margin-left: 10px;
+	vertical-align: middle;
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: clip;
+}
+#invite-name a {
+	color: #0088D3;
+	text-decoration: none;
+}
+#invite-count {
+	color: #C8AC99;
+	width: 50px;
+	height: 24px;
+}
+/**********************invite-search 结束***************************************/
+
+/**********************recommend 开始*******************************************/
+#recommend {
+	width: 934px;
+	height: 200px;
+	padding:0 12px 0 12px;
+}
+/**********************邀请人信息*************************************************/
+#items {
+	float: left;
+	width: 467px;
+	height: 80px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+#items:nth-child(1) {
+	border-bottom: 1px dashed #EEEEEE;
+}
+#items:nth-child(2) {
+	border-bottom: 1px dashed #EEEEEE;
+}
+/**********************图片*******************************************************/
+
+#items-img {
+	float: left;
+	height: 36px;
+}
+/**********************邀请人姓名及介绍*******************************************/
+#items-name {
+	float: left;
+	width: 255px;
+	height: 36px;
+}
+#items-name p {
+	width: 150px;
+	height: 18px;
+	font-size: 16px;
+	margin: 0 0 0 10px;
+}
+#items-name p a {
+	text-decoration: none;
+	color: #0088D3;
+	margin-bottom: 3px;
+}
+/**********************按钮*********************************/
+#items-btn {
+	float: left;
+	width: 68px;
+	height: 36px;
+	margin-left: 90px;
+}
+#items-btn input {
+	width: 68px;
+	height: 22px;
+	margin-top: 10px;	
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	border-radius: 5px;
+	color: #FFF;
+	background-color: #0055CC;
+}
+
+/**********************recommend 结束*******************************************/
