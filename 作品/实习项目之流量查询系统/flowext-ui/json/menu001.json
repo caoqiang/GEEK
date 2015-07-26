@@ -1,0 +1,9 @@
+{
+	"items": [
+		 {
+			"type": "menu",
+			"name": "手机用户查询",
+			"href": "phoneaccountsearch"
+		}
+	]
+}

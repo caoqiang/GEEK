@@ -1,0 +1,122 @@
+@media screen and (min-width:1000px) {
+		.view-bg{
+    		min-height:880px !important;
+    	    	}
+	}
+@media screen and (max-width:1200px) {
+	
+     #navbar-collapse{
+ 	display:none !important;
+ 	}
+ 	.paycontent .image img{
+	width:75% !important;
+	height:20% !important;
+    }
+    .paycontent label{
+    	margin-right:5% !important;
+    	padding-left:5% !important;   
+    	}
+    	.view-bg{
+    		min-height:780px !important;
+    	    	}
+    	.navbar-collapse{
+    	padding:0px !important;
+    }
+    /*#search button{
+    	padding:0px !important;*/
+    	}
+}
+
+@media screen and (max-width: 765px) {
+	#navbar-collapse{
+ 	display:block !important;
+ 	}
+ 	.content div.col-xs-12{
+ 		padding-right: 15px !important;
+ 	}
+ 	.view {
+    margin-left: 12% !important;
+    }
+    .view-bg{
+    		min-height:650px !important;
+    	    	}
+ #searcbutton{
+	float: right;
+}
+    
+}
+@media only screen and  (max-width: 320px) {
+	#search{
+	margin:10px 0 0 0px;
+	padding-top:0px ;
+	height:1000px;
+	text-align: center;
+}
+#searcbutton{
+	margin-left: 40px;
+}
+.pagination{
+	clear: right;
+}
+
+	
+	
+}
+@media screen and (max-width: 450px) {
+	#messagecharge .btn-group{
+	margin-left:20% !important; 
+	}
+	.paycontent {
+		padding-left:10px !important;
+		padding-right:0 !important;	}
+	.paycontent p{
+		margin-left:8px !important;
+	}
+	.paycontent label.col-xs-4,.paycontent input{
+		padding:0 !important;
+	}
+	#phoneNum{
+		width:90% !important;
+	}
+	.checkbox-inline{
+		margin-left:0 !important;
+	}
+	form div.col-xs-12{
+		margin-left:10px !important;
+	}
+    #search button{
+		margin:10px 0 0 0 !important;
+	}
+	#search input{
+		margin-top: 10px !important;
+	}
+	.table .thread tr th.pd{
+        padding-left:10px !important;
+    }
+    .tbody label{
+    	padding-left:0px !important;
+    }
+    .tbody tr td.tab-pdl {
+    padding-left: 10px !important;
+    }
+    .pagination .page_nav_area{
+	margin-left:110px !important;
+    }
+    .pagination .page_nav_area1{
+	margin-left:150px !important;
+    }
+    #agenttab{
+    	margin-top: 150px;
+    }
+    .view {
+    	width: 90% !important;
+    }
+}
+/*@media screen and (max-width: 980px) {
+     #navbar-collapse{
+ 	display:none !important;}
+}
+@media screen and (max-width: 700px) {
+	#navbar-collapse{
+ 	display:none !important;}
+}*/

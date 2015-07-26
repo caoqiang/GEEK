@@ -1,0 +1,269 @@
+body { 
+  overflow-y: auto;
+  overflow-x: hidden; 
+  min-height:100%;
+  height:auto;
+}  
+.wordColor,a{
+	color:#ADADAD;
+}  
+a:focus {
+    outline: none;
+    }
+.header {  
+  height: 12%;
+  /*padding-top:15px;*/
+  padding-right:30px;
+  overflow: hidden;
+  background: #3C3C3C;
+  vertical-align:middle;
+} 
+.header div ul{
+	padding:20px;
+}
+ul.pull-right li a:hover{
+	color:#FFFFFF;
+}
+
+h3{
+	margin-left:30px;
+	font-size: 22px;
+	color:#ADADAD;
+}
+.content{
+   height: 100%;
+   /*height:auto;*/
+   overflow: hidden;
+   padding: 0;
+} 
+
+.pos{
+	text-align: center;
+	float:left;
+	padding-top:10px;
+	border-top: 1px solid #737373;
+} 
+.content div.menu{
+	background: #3C3C3C;
+    color:#ADADAD;
+    padding-bottom:10000px; 
+    margin-bottom:-10000px;
+    /*min-width:150px;*/
+}
+.content div.container{
+	background: #EEEEEE;
+	padding-bottom:10000px; 
+    margin-bottom:-10000px;
+    min-height:92%;
+}
+ .navbar{
+ 	min-height:20px;
+    border-radius:none;
+ } 
+ .navbar ul,.navbar ul li ul{
+ 	min-width:60px;
+ }
+ 
+.footer{  
+  background-color: #AAAAAA;  
+  height: 25px;  
+  line-height: 25px;
+  position:relative;
+  margin-bottom: 10px;
+}
+
+#content{
+	float:right;
+	position: relative;
+	
+}
+
+.footer p{
+	position:relative;
+    left:20px;
+}  
+
+.view-bg{
+	background:#FFFFFF;
+	padding-bottom:15px;
+	height:92%;
+}
+.form-group{
+	padding:5px 0;
+	height:30px;
+}
+.title{
+	margin-top:15px;
+	font-weight: bold;
+	clear:both;
+	padding:2%;
+}
+h4{
+	margin-bottom: 1.2em;
+}
+.title p{
+	color:#888888;
+	font-weight: 100;
+	margin-top:15px;
+}
+.paycontent{
+	border:1px solid #444444;
+	min-width:200px;
+	padding:0 15%;
+}
+.paycontent .image img{
+	width:100%;
+	height:20%;
+}
+.notice{
+	border:1px solid #ADADAD;
+	padding:10px;
+	background:#E0E0E0;
+}
+
+h5.ss{
+	font-size:16px; 
+	margin-top:20px;
+}
+p span{
+	color:red;
+	font-size:18px;
+}
+#navbar-collapse{
+	background:#3C3C3C;
+}
+
+.form-group .col-xs-3{
+	padding: 0;
+	text-align: right;
+}
+.style span{
+	color:white; 
+	float:right;
+	margin-bottom:5px;
+}
+#search{
+	margin:10px 0 0 0px;
+	padding-top:0px ;
+	height:1000px;
+	text-align: center;
+
+}
+#search div{
+	padding: 0;
+	position: relative;
+}
+#search div input{
+	
+}
+#search div span{
+	margin: 0 auto;
+	padding: 5px 0 0 5px;
+	
+}
+#searcbutton{
+	margin-left: 40px;
+	
+}
+
+/*usermanagement*/
+
+.tabstyle{
+	border:2px solid #BFBFBF;
+	margin-top:40px;
+	width:90%;
+	text-align: center;	
+	
+
+}
+.tabstyle1{
+	border:2px solid #BFBFBF;
+	margin-top:80px;
+	width:90%;
+}
+.tabstyle thead th{
+	text-align: center;
+}
+#agenttab,.roletab,.authoritytab{
+	text-align: center;
+	border:2px solid #BFBFBF;
+	margin-top:20px;
+	width:90%;
+	}
+.search{
+	margin-top:60px;
+	text-align: center;
+	width:90%;
+}
+.tbody label{
+	padding-left:15px;
+	
+}
+.tbody label input,.thread label input{
+	margin-right:8px;
+}
+.dropdown a,#agenttab a,.roletab ul li a{
+	color:#000000;
+}
+.thread{
+	background:#E0E0E0;
+	font-weight: bolder;
+}
+
+
+.table{
+	width:90%;
+}
+.view2{
+	width:100%;
+	overflow:hidden;
+	margin-top:15px;
+	margin-left:5%;
+	position: relative;
+	height: auto;
+}
+.thread tr th.tab-pdl,.tbody tr td.tab-pdl{
+	padding-left:35px;
+}
+.pagination{
+	float:right;
+	margin: 2px;
+}
+.pagination .btn{
+	border:1px solid  #BFBFBF;
+	margin:5px;
+	line-height:1.2em;
+}
+.pagination input{
+	width:50px;
+	margin-right:10px;
+	padding:4px 1px;
+	line-height:1.2em;
+}
+.pagination .span_left{
+	margin-left:10px;
+}
+#charge{
+	width:30%;
+	height:30%;
+	position:fixed;
+	top:30%;left:35%;
+}
+#charge .modal-body button{
+	margin-top:8px;
+}
+.balance{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom:15px;
+}
+
+.title .notice p{
+	color:#000;
+	margin-top:0px;
+}
+
+table.authoritytab,div.roletab{
+	width:100%;
+}
+

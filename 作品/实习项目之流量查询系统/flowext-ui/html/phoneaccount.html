@@ -1,0 +1,74 @@
+<div class="view2" ng-controller="phoneaccountController" ng-init="init()">
+	<div class="title">
+		<h4>手机用户查询</h4> </div>
+	<div class="content col-sm-12 col-xs-12" >
+		<div class="col-sm-12 col-xs-12" id="search">
+			<div class="col-sm-3 col-xs-12">
+			    <span  style="padding-left:0px;" class="col-sm-4 col-xs-3">号码：</span>
+				<input class="col-sm-6 col-xs-6"  type="text" id="phoneNumber" style="padding:2.5px 0px 2.5px  0px;
+				margin-left: 5px;" placeholder="请输入手机号" ng-model="accountnumber" ng-keydown="enterSearchAcc1($event)" />
+			</div>		
+				 <div class=" col-sm-3 col-xs-12">		     	
+				     	  <span  class="col-sm-3 col-xs-3" style="padding-left:0px;margin-left: 0px;">开始：</span>
+						 <input  class="col-sm-6 col-xs-6 input-group-lg" type="text" style="padding:2.5px 0px 2.5px  0px; display: inline; margin-left: 5px;"  ng-model="startTime"datepicker-popup="{{format}}" is-open="startopened"
+						   min-date="minDate" max-date="maxDate"  datepicker-options="dateOptions"
+						 	date-disabled="disabled(date, mode)" ng-required="true" 
+						 	current-text="今天" clear-text="清空" close-text="关闭" ng-keydown="enterSearchAcc1($event)"/>			 	
+						<button class="btn btn-sm col-sm-2 col-xs-2" ng-click="openstartTime()"><i class="glyphicon glyphicon-calendar"></i></button>
+			</div>
+		  <div class=" col-sm-3 col-xs-12">
+				<span  class="col-sm-3 col-xs-3"style="padding-left:0px;margin-left: 0px;">终止:</span>
+				<input class="col-sm-6 col-xs-6" type="text"style="padding:2.5px 0px 2.5px  0px;margin-left: 5px;"  ng-model="endTime" datepicker-popup="{{format}}" is-open="endopened"
+				 min-date="minDate" max-date="maxDate"  datepicker-options="dateOptions"
+				 	date-disabled="disabled(date, mode)" ng-required="true" 
+				 	current-text="今天" clear-text="清空" close-text="关闭"  ng-keydown="enterSearchAcc1($event)"/>				
+				<button class="btn btn-sm col-sm-2 col-xs-2" ng-click="openendTime()"><i class="glyphicon glyphicon-calendar"></i></button>
+			</div>			
+			<div  class="col-sm-1 col-xs-12">
+				<button class=" btn btn-danger btn-sm"  id="searcbutton" ng-click="Search()">搜索</button>
+			</div>
+		     
+		
+		<table class="table tabstyle ">
+			<thead class="thread">
+				<tr>
+					<th class="col-xs-2 ">手机号</th>
+					<th class="col-xs-2">充值时间</th>
+					<th class="col-xs-2 ">结果反馈时间</th>
+					<th class="col-xs-2 ">订单号</th>
+					<th class="col-xs-2 ">状态</th>
+				</tr>
+			</thead>
+			<tbody class="tbody">
+				<tr ng-repeat="x in accounts | orderBy:'smsTotal'" ng-class="getSelectedClass1(x.accountId)">
+				<tr ng-repeat="x in accounts">
+					<td>{{x.mobnum}}</td>
+					<td>{{x.orderTime}}</td>					
+					<td>{{x.resultTime}}</td>					
+					<td>{{x.operSeq}}</td>
+					<td>{{x.resultDesc}}</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<div class="pagination" style="margin-right:10%;">
+			<span class="page_nav_area">
+    				  <button class="btn page_prev btn-sm" ng-class="{true:'disabled'}[currentPage==1]" ng-click="prev()">
+    					<span class="glyphicon glyphicon-chevron-left"></span>
+			          </button>
+			     <span >
+			     	 <label ng-bind="currentPage"></label>
+			    	 <span>/</span>
+			         <label ng-bind="totalPage"></label>
+			   </span>
+			<button class="btn page_next btn-sm" ng-class="{true:'disabled'}[currentPage>=totalPage]" ng-click="next()">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</button>
+			<span class="span_left " >跳转到:</span>
+			<input type="text" ng-model="pageNo" ng-keydown="enterSearchAcc2($event)" />
+			<button class="btn btn-danger" ng-click="confirm()">确定</button>
+			</span>
+		</div>
+	</div>
+	</div>
+</div>

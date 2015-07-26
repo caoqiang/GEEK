@@ -1,0 +1,9 @@
+<a data-target="#navbar-collapse1" class="style" data-toggle="collapse">
+	<span class="glyphicon glyphicon-align-justify"></span></a>
+<!--<br style="clear:both;"/>-->
+   <ul class="nav collapse" id="navbar-collapse1">
+	  <li ng-repeat="x in item">
+		 <a href="#/{{x.href}}" ng-if=!x.items style="font-weight: bold;">{{x.name}}</a>
+
+	</li>
+</ul>
